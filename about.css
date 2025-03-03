@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 42px 0;
+    background: #F3D7B7;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+font-weight: 900;
+font-size: 18px;
+line-height: 14.06px;
+letter-spacing: 1px;
+color: #333333;
+}
+nav ul li{
+    list-style: none;
+}
+
+
+.hero{
+    background: #F3D7B7;
+   padding: 130px 0;
+   height: 700px;
+
+}
+
+.hero .hero-text p{
+margin: 47px 0;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #000000;
+width: 464px;
+}
+ 
+ .hero .hero-text h1{
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+letter-spacing: 0px;
+padding-right:100px;
+
+
+ }
+
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    gap: 216px;
+}
+
+
+
+
+
+
+.hero-img{
+    position: relative;
+}
+
+.kichik-rasm{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    animation: a 2s infinite linear;
+}
+
+@keyframes a{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+}
+.kofe{
+    display: flex;
+    align-items: center;
+    gap: 318px;
+    padding: 160px 0;
+}
+ 
+ .kofe .kofe-text h1{
+font-weight: 700;
+font-size: 53px;
+line-height: 56.25px;
+letter-spacing: 0px;
+color: #000000;
+ }
+ .kofe .kofe-text p{
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #333333;
+padding: 64px 0;
+ }
+
+ .info{
+    background: #C99B67;
+   
+ }
+
+ .hero-texts{
+    padding: 109px 0;
+ }
+.hero-texts h1{
+font-weight: 800;
+font-size: 53px;
+line-height: 58.59px;
+letter-spacing: 0px;
+color: white;
+
+}
+
+ .hero-texts p{
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0px;
+color: #FFFFFF;
+padding: 40px 0;
+
+ }
+
+ .info .container{
+    display: flex;
+    align-items: center;
+    gap: 350px;
+ }
+
+ .info .container .students{
+    margin-top: -250px;
+ }
+
+footer{
+    background: #F3D7B7;
+}
+.oyog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 0;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    color: #333333;
+    
+}
+
+
